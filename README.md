@@ -1,3 +1,5 @@
+#CERRA CHERAKA Youcef Adel : https://github.com/cerra-youcef/TP-GL-V2.git
+
 # M1 - Kata
 
 ## RPG Player Manager
@@ -13,9 +15,9 @@ fonctionnalité à l'intérieur !
 Avant de pouvoir implémenter la nouvelle fonctionnalité (qui sera décrite plus tard), vous allez en premier lieu vous
 assurer de ne rien casser. Pour cela, vous allez devoir :
 
-* Comprendre le code actuel (prenez des notes sur les règles métier, ça vous aidera) ;
-* Rédiger des tests unitaires et globaux pour vous assurer que tout fonctionne correctement ;
-* Le tout, sans toucher le code actuel.
+- Comprendre le code actuel (prenez des notes sur les règles métier, ça vous aidera) ;
+- Rédiger des tests unitaires et globaux pour vous assurer que tout fonctionne correctement ;
+- Le tout, sans toucher le code actuel.
 
 JaCoCo et PIT seront vos amis (+ de détails dans le sujet de TP).
 
@@ -37,12 +39,12 @@ interdit** de toucher aux tests !
 
 Quelques pistes :
 
-* Réduire la complexité cognitive ;
-* Améliorer le système d'affichage, par exemple avec FreeMarker ou un StringBuilder (FreeMarker sera plus approprié) ;
-* Est-il cohérent d'avoir ces trois classes dans `re.forestier.re.rpg` ? (probablement un redécoupage à faire) ;
-* Consistence dans le code ;
-* Gérer correctement les erreurs ;
-* Utiliser des énumérations, regarder si les structures sont bien adaptées, etc.
+- Réduire la complexité cognitive ;
+- Améliorer le système d'affichage, par exemple avec FreeMarker ou un StringBuilder (FreeMarker sera plus approprié) ;
+- Est-il cohérent d'avoir ces trois classes dans `re.forestier.re.rpg` ? (probablement un redécoupage à faire) ;
+- Consistence dans le code ;
+- Gérer correctement les erreurs ;
+- Utiliser des énumérations, regarder si les structures sont bien adaptées, etc.
 
 N'hésitez pas à demander à votre chargé de TP des conseils au fur et à mesure.
 
@@ -55,19 +57,19 @@ En vous donnant le projet, le client vous a demandé d'implémenter de nouvelles
 #### Ajout d'un nouveau rôle de joueur : Gobelin (`GOBLIN` en anglais) :
 
 - Niveau 1 :
-    - `INT` = 2
-    - `ATK` = 2
-    - `ALC` = 1
+  - `INT` = 2
+  - `ATK` = 2
+  - `ALC` = 1
 - Niveau 2 :
-    - `ATF` = 3
-    - `ALC` = 4
+  - `ATF` = 3
+  - `ALC` = 4
 - Niveau 3 :
-    - `VIS` = 1
+  - `VIS` = 1
 - Niveau 4 :
-    - `DEF` = 1
+  - `DEF` = 1
 - Niveau 5 :
-    - `DEF` = 2
-    - `ATK` = 3
+  - `DEF` = 2
+  - `ATK` = 3
 
 #### Améliorer la gestion des objets :
 
@@ -89,8 +91,8 @@ Actuellement, il est uniquement possible d'avoir le détail d'un joueur dans un 
 que vous ajoutiez un affichage complémentaire en Markdown. Markdown est un moyen simple de formater du texte. Voici
 quelques règles de Markdown :
 
-* `#` permet de créer un titre, `##` un sous-titre, et ainsi de suite ;
-* Des caractères entre `*` formate un texte *en italique* ; et `**` formate un texte **en gras** ;
-* Les listes doivent commencer par `*` au début de la ligne ;
+- `#` permet de créer un titre, `##` un sous-titre, et ainsi de suite ;
+- Des caractères entre `*` formate un texte _en italique_ ; et `**` formate un texte **en gras** ;
+- Les listes doivent commencer par `*` au début de la ligne ;
 
 Pour découvrir davantage la syntaxe Markdown, regardez le contenu de ce fichier !# Tp1-GL
